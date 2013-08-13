@@ -1,3 +1,4 @@
+@ECHO OFF
 echo Attempting GIT request "%1".
 IF "%1"=="pull" (
 	copy "D:\core\git\TekNetWINDOWS" "D:\core\prog"
