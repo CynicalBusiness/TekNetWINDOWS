@@ -17,8 +17,8 @@ IF "%1"=="pull" (
 			del "D:\core\git\TekNetWINDOWS"
 			copy "D:\core\prog" "D:\core\git\TekNetWINDOWS"
 		) ELSE (
-			del %3
-			copy %2 %3
+			del %2
+			copy %3 %2
 		)
 		echo #--------------------------#
 		echo Pushed to GIT.
