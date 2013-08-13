@@ -1,4 +1,4 @@
 @ECHO OFF
-C:\
+C:
 cd WINDOWS\system32
 echo Redirected to System32.
