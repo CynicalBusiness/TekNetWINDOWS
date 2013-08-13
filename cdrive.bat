@@ -1,4 +1,8 @@
 @ECHO OFF
 C:
 cd WINDOWS\system32
-echo Redirected to System32.
+IF "%1"=="return" (
+	progdir
+) ELSE (
+	echo Redirected to System32.
+)
